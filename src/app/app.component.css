@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+  }
+  
+  app-sidebar {
+    /* Sidebar styling */
+    width: 20%;
+    /* ... other styles */
+  }
+  
+  main {
+    flex: 1; /* Take the remaining space */
+    padding: 20px;
+  }
+  

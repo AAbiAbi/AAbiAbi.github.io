@@ -1,0 +1,78 @@
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f4f4f8; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info, .summary, .education, .skills, .image-content {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for each section */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2, h3 {
+    color: #333366; /* Dark blue */
+    margin-bottom: 1rem;
+}
+
+address {
+    line-height: 1.5;
+    color: #555;
+}
+
+a {
+    color: #0077cc; /* Blue color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0055a5;
+}
+
+.summary p {
+    color: #666;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 80%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.image-content img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .introduction {
+        flex-direction: column;
+    }
+
+    .personal-info, .summary, .education, .skills {
+        width: 100%;
+    }
+}

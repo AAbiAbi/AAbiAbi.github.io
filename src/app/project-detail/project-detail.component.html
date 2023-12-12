@@ -1,0 +1,9 @@
+<h1>{{ projectTitle }}</h1>
+<img [src]="projectImage" alt="{{ projectTitle }} Image" />
+<p>{{ projectDescription }}</p>
+<ul>
+  <li *ngFor="let detail of projectDetails">{{ detail }}</li>
+</ul>
+<a [href]="githubLink" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+<a [href]="videoLink" target="_blank" rel="noopener noreferrer">Watch Video</a>
+<a [href]= "projectUrl" target="_blank" rel="noopener noreferrer">Project URL</a>
