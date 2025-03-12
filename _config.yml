@@ -1,0 +1,9 @@
+title: "Abigail's Portfolio"
+description: "Software Engineer | AI DevX | Open Source Enthusiast"
+theme: jekyll-theme-cayman
+baseurl: ""  # Keep this empty for GitHub Pages
+url: "https://aabiabi.github.io"
+permalink: pretty  # Makes URLs cleaner
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
